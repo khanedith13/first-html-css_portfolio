@@ -1,0 +1,286 @@
+body {
+    padding: 10px;
+    padding-top: 150px;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+hr {
+    border: 1px solid #00203F;
+}
+
+header {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;                       
+    background-color:#00203F;          
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 20px 100px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+header h1 {
+    margin-top: 0%;
+    padding-left: 20px;
+}
+nav {
+    align-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+    gap: 10px;
+}
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 0%;
+}
+nav a:hover {
+    color: aqua;
+    border-radius: 20px;
+    border-top: 2px solid red;
+}
+
+
+.intro {
+    margin-top: 0px;
+    display: flex;
+    justify-self: center;
+    width: 60%;
+    border-radius: 20px;
+}
+.intro:hover {
+    background: #2d2d2d;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+article {
+    align-content: center;
+    margin: 10px;
+}
+.intro img {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.abouts {
+    padding-top: 40px;
+}
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+.abouts h1 {
+    text-align: center;
+}
+.details {
+    width: fit-content;
+    background: #1d1d1d;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    width: 20%;
+}
+.details a {
+    text-decoration: underline;
+    color: aqua;
+}
+.details img {
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.details h2 {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.details p {
+    padding: 10px;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.details li {
+    padding: 10px;
+    line-height: 1.4;
+    font-size: 14px;
+    text-align: left;
+}
+.details h4 {
+    padding-left: 10px;
+}
+.details table {
+    padding: 20px;
+    line-height: 1.4;
+    font-size: 14px;
+    text-align: center;
+}
+.details th {
+    text-align: left;
+    padding: 6px 0;
+    width: 40%;
+    font-weight: bold;
+}
+.details td {
+    padding: 5px;
+    width: 100%;
+    text-align: justify;
+}
+.details:hover {
+    background: #2d2d2d;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.blue {
+    color: #00A3FF; 
+}
+.orange {
+    color: #FF7A00;
+}
+.green { 
+    color: #00FF73; 
+}
+.purple { 
+    color: #C586FF; 
+}
+
+
+.hobbies-section {
+    text-align: center;
+    padding-top: 40px;
+}
+.hobbies-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.each-hob {
+    z-index: 0; 
+    background: #222;
+    width: 250px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+.each-hob:hover {
+    background: #2d2d2d;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.icons {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.each-hob h2 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+.each-hob p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+.hobbies-container a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.gallery {
+    margin-bottom: 30px;
+    height: fit-content;
+    padding-top: 40px;
+}
+.gallery h1 {
+    text-align: center;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    height: fit-content;
+    gap: 15px;
+    padding: 10px;
+}
+.gallery-container img {
+    width: fit-content;          
+    height: 250px;               
+    object-fit: contain;   
+    border-radius: 15px;
+    filter: brightness(40%);
+}
+.gallery-container img:hover {  
+    box-shadow: 0 10px 20px rgba(255,0,0,0.5);       
+    filter: brightness(80%);
+    transform: scale(1.05);
+}
+
+
+.contacts {
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.contacts h1 {
+    text-align: center;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    gap: 30px;
+}
+.contact a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1d1d1d;
+    padding: 5px;
+}
+.contact img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.contact a:hover {
+    transform: scale(1.05);
+    color: white;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+.facebook:hover { 
+    background: lightblue;
+}
+.instagram:hover { 
+    background-color: lightpink;
+}
+.tiktok:hover { 
+    background-color: lightgray;
+}
+.phone:hover { 
+    background-color: lightgreen; 
+}
+
+
+footer {                 
+    background-color: black;          
+    text-align: center;
+    opacity: 10%;
+}
+
