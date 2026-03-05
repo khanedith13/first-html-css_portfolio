@@ -43,7 +43,6 @@ nav a {
 nav a:hover {
     color: aqua;
     border-radius: 20px;
-    border-top: 2px solid red;
 }
 
 
