@@ -69,32 +69,23 @@ article {
 }
 
 .abouts {
-    padding-top: 40px;
+    padding: 40px;
 }
 .about {
-    gap: 10px;
     text-align: center;
 }
 .abouts h1 {
     text-align: center;
 }
 .details {
-    width: fit-content;
     background: #1d1d1d;
     border-radius: 20px;
-    overflow: hidden;
     padding: 10px;
-    width: 20%;
+    text-align: center;
 }
 .details a {
     text-decoration: underline;
     color: aqua;
-}
-.details img {
-    width: 100%;
-    height: auto;
-    background: whitesmoke;
-    border-radius: 10px;
 }
 .details h2 {
     padding: 15px;
@@ -111,7 +102,7 @@ article {
     padding: 10px;
     line-height: 1.4;
     font-size: 14px;
-    text-align: left;
+    text-align: center;
 }
 .details h4 {
     padding-left: 10px;
@@ -123,15 +114,13 @@ article {
     text-align: center;
 }
 .details th {
-    text-align: left;
+    text-align: center;
     padding: 6px 0;
-    width: 40%;
     font-weight: bold;
 }
 .details td {
     padding: 5px;
-    width: 100%;
-    text-align: justify;
+    text-align: center;
 }
 .details:hover {
     background: #2d2d2d;
